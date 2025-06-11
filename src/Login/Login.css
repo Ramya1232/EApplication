@@ -1,0 +1,44 @@
+/* Login.css */
+.color {
+    background-image:url("https://media.istockphoto.com/photos/blue-magical-book-picture-id616248946?k=6&m=616248946&s=170667a&w=0&h=QEzv-2-sATSUzJdBIs0mjAJN5VYuZeqicDOoxeRrz7Y=");  /* Choose your desired background color */
+    min-height: 100vh;          /* Ensures the background covers the entire height of the page */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+  }
+  
+  .container {
+    background-color:palevioletred;   /* Optionally, make the container background white to contrast with the page background */
+    padding: 10px;
+    border-radius:10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow to the form container */
+    opacity: 0.8;
+    width: 350px;  /* Set a fixed width for the login box (can be adjusted as needed) */
+    max-width: 100%;
+    margin-left: 50px;
+
+  }
+  
+  .img {
+    max-width: 100%;  /* Ensures the image is responsive */
+    height: auto;
+    margin-left: 50px;
+    opacity: 0.8;
+  }
+  input.form-control {
+    height: 50px;  /* Increase the height of the input box */
+    
+    font-size: 16px; /* Adjust the font size for better readability */
+    padding: 10px; /* Increase the padding to make the box look bigger */
+  }
+  
+  button.btn {
+    width: 100%; /* Make the submit button take the full width of the container */
+    padding: 15px;
+  }
+  
+  
